@@ -1,4 +1,4 @@
-# Adam-s-Hangman
+# Save-Life-Of-Aman
 Project 1 for General Assembly
 
 Technologies Used:
