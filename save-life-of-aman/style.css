@@ -1,0 +1,67 @@
+body {
+	background: rgba(76, 120, 80, 0.3);
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	font-family: 'Ruluko', sans-serif;
+ 	margin: 10% auto;
+	 width: auto;
+ 	padding: 20px;
+ 	border: 1px solid rgba(76, 175, 80, 0.5); 
+    background: rgba(76, 175, 80, 0.3)
+
+}
+
+.alphabet{
+	display: inline-block;
+	background-color: wheat
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l, .m, .n, .o, .p, .q, .r, .s, .t, .u, .v, .w, .x, .y, .z{
+	display: none;
+}
+
+.pole {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.blank {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-bottom: 1px solid black;
+	text-align: center;
+
+}
+
+.player {
+	display: inline-block;
+	padding: 10px;
+	background: rgba(50,50,200,0.3);
+	border: 1px solid rgba(50,50,200,0.5);
+}
+
+.head, .leftarm, .body1, .rightarm, .body2, .leftleg, .rightleg{
+	display: none;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.fill {
+	margin: 0 auto;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+/*.input {
+	text-transform:uppercase;
+}
